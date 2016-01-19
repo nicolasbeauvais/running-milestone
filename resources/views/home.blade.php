@@ -7,7 +7,7 @@
 
     <meta property="og:title" content="Nicolas Beauvais Running milestone" />
     <meta property="og:url" content="http://run.nicolas-beauvais.com/" />
-    <meta property="og:image" content="http://run.nicolas-beauvais.com/background.jpg" />
+    <meta property="og:image" content="http://run.nicolas-beauvais.com/social.png" />
     <meta property="og:description" content="This year I will try to run 1000 kilometers (620 miles). This website show my progress to achieve this milestone." />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
