@@ -40,7 +40,7 @@ $app->get('/', function (\Illuminate\Http\Request $request, Illuminate\Contracts
     }
 
     $time = round(($time / 60) / 60, 2);
-    $average_distance_by_week = round(($distance / 1000) / (int) date('W'), 2);
+    $average_distance_by_week = round(($distance / 1000) / (date('z') / 7), 2);
     $distance = (string)str_pad($distance, 7, '0', STR_PAD_LEFT);// add trailing zeros
     $distance = substr($distance, 0, 1) . ' ' . substr($distance, 1, 3) . ' ' . substr($distance, 4, 3);
 

@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Nicolas Beauvais Running milestone</title>
+    <meta name="description" content="This year I will try to run 1000 kilometers (620 miles). This website show my progress to achieve this milestone." />
+
+    <meta property="og:title" content="Nicolas Beauvais Running milestone" />
+    <meta property="og:url" content="http://run.nicolas-beauvais.com/" />
+    <meta property="og:image" content="http://run.nicolas-beauvais.com/background.jpg" />
+    <meta property="og:description" content="This year I will try to run 1000 kilometers (620 miles). This website show my progress to achieve this milestone." />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -287,7 +293,7 @@
                 <div class="twitter"><a href="https://twitter.com/w3Nicolas">@w3Nicolas</a></div>
 
                 <div class="description">
-                    This year I will try to run <strong>1000</strong> kilometers (620 miles). This counter show my progress to achieve this milestone.
+                    This year I will try to run <strong>1000</strong> kilometers (620 miles). This website show my progress to achieve this milestone.
                 </div>
             </div>
             <div class="big-stat">
@@ -313,7 +319,7 @@
             </div>
             <div class="col-lg-4 col-md-4">
                 <div class="small-stat">
-                    <h3>Calories used</h3>
+                    <h3>Calories burned</h3>
                     <div class="value">{{ $calories }}</div>
                     <div class="unit">Calories</div>
                 </div>
