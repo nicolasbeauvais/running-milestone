@@ -30,6 +30,11 @@ $app->get('/', function (\Illuminate\Http\Request $request, Illuminate\Contracts
 
     foreach ($activities as $activity) {
 
+        // Then it's probably a fitness training
+        if ($activity->distance < 1000) {
+            continue;
+        }
+
         $activity = $cache->remember('activity.' . $activity->id, 60 * 24 * 30, function () use ($api, $activity) {
             return $api->get('activities/' . $activity->id);
         });
